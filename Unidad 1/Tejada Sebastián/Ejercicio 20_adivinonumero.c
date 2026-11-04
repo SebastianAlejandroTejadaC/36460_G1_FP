@@ -8,7 +8,7 @@ int main(void) {
        objetivo = 42;
 
 
-    printf("He pensado un numero entre 1 y 100. ¡Adivinalo!\n");
+    printf("He pensado un numero entre 1 y 100. Â¡Adivinalo!\n");
 
     while (1) {
         printf("Tu intento: ");
@@ -30,7 +30,7 @@ int main(void) {
         } else if (intento > objetivo) {
             printf("Mas bajo.\n");
         } else {
-            printf("¡Acertaste! Lo lograste en %d intentos.\n", intentos);
+            printf("Â¡Acertaste! Lo lograste en %d intentos.\n", intentos);
             break;
         }
     }
