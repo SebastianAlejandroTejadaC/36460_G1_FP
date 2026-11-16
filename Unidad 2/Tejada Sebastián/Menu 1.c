@@ -42,7 +42,6 @@ void main()
            printf("Introduce un entero n >= 1: ");  // mensaje ingreso de datos
            if (scanf("%d", &n) != 1 || n < 1) {     // validadion de entrada de datos
                printf("Error: entrada invalida o n < 1.\n"); // mensaje de error
-               while (getchar() != '\n');
                n = 0;
            }
 
@@ -74,7 +73,6 @@ void main()
 
 } while (op != 3);
 
-    return 0;
 
 }
 
